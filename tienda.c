@@ -42,7 +42,7 @@ int main(void) {
         if (scanf("%d", &opcion) != 1) {
             printf("Entrada invalida. Debe ser un numero entero.\n");
             limpiarBufferEntrada();
-            opcion = 0; // fuerza repetir
+            opcion = 0; // 
             continue;
         }
         limpiarBufferEntrada();
@@ -234,3 +234,4 @@ void limpiarBufferEntrada(void) {
     int c;
     while ((c = getchar()) != '\n' && c != EOF) { /* descartar */ }
 }
+
