@@ -9,4 +9,4 @@ Aplicación en C para gestionar un único producto: registro (ID, nombre, stock,
 ## Compilación y ejecución
 ```bash
 gcc -Wall -Wextra -O2 -o tienda tienda.c
-./tienda   # En Windows: tienda.exe
+./tienda
